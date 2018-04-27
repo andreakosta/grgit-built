@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.BranchChangeOpSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:23:23" hostname="HP-OfficeJet-Pro-8720.local" time="3.686">
+  <properties/>
+  <testcase name="branch change with non-existent branch fails" classname="org.ajoberstar.grgit.operation.BranchChangeOpSpec" time="0.507"/>
+  <testcase name="branch change with no start point fails" classname="org.ajoberstar.grgit.operation.BranchChangeOpSpec" time="0.448"/>
+  <testcase name="branch change with null mode starting at origin/my-branch tracks refs/remotes/origin/my-branch" classname="org.ajoberstar.grgit.operation.BranchChangeOpSpec" time="0.489"/>
+  <testcase name="branch change with TRACK mode starting at origin/my-branch tracks refs/remotes/origin/my-branch" classname="org.ajoberstar.grgit.operation.BranchChangeOpSpec" time="0.432"/>
+  <testcase name="branch change with NO_TRACK mode starting at origin/my-branch tracks null" classname="org.ajoberstar.grgit.operation.BranchChangeOpSpec" time="0.49"/>
+  <testcase name="branch change with null mode starting at test-branch tracks null" classname="org.ajoberstar.grgit.operation.BranchChangeOpSpec" time="0.423"/>
+  <testcase name="branch change with TRACK mode starting at test-branch tracks refs/heads/test-branch" classname="org.ajoberstar.grgit.operation.BranchChangeOpSpec" time="0.478"/>
+  <testcase name="branch change with NO_TRACK mode starting at test-branch tracks null" classname="org.ajoberstar.grgit.operation.BranchChangeOpSpec" time="0.416"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

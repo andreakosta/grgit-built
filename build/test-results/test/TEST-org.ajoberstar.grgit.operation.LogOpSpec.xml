@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.LogOpSpec" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:40" hostname="HP-OfficeJet-Pro-8720.local" time="2.654">
+  <properties/>
+  <testcase name="log with no arguments returns all commits" classname="org.ajoberstar.grgit.operation.LogOpSpec" time="0.334"/>
+  <testcase name="log with max commits returns that number of commits" classname="org.ajoberstar.grgit.operation.LogOpSpec" time="0.472"/>
+  <testcase name="log with skip commits does not return the first x commits" classname="org.ajoberstar.grgit.operation.LogOpSpec" time="0.376"/>
+  <testcase name="log with range returns only the commits in that range" classname="org.ajoberstar.grgit.operation.LogOpSpec" time="0.553"/>
+  <testcase name="log with path includes only commits with changes for that path" classname="org.ajoberstar.grgit.operation.LogOpSpec" time="0.454"/>
+  <testcase name="log with annotated tag short name works" classname="org.ajoberstar.grgit.operation.LogOpSpec" time="0.465"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

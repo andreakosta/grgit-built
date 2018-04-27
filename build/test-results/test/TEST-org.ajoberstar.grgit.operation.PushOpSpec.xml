@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.PushOpSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:23:34" hostname="HP-OfficeJet-Pro-8720.local" time="4.521">
+  <properties/>
+  <testcase name="push to non-existent remote fails" classname="org.ajoberstar.grgit.operation.PushOpSpec" time="0.505"/>
+  <testcase name="push without other settings pushes correct commits" classname="org.ajoberstar.grgit.operation.PushOpSpec" time="0.7"/>
+  <testcase name="push with all true pushes all branches" classname="org.ajoberstar.grgit.operation.PushOpSpec" time="0.466"/>
+  <testcase name="push with tags true pushes all tags" classname="org.ajoberstar.grgit.operation.PushOpSpec" time="0.687"/>
+  <testcase name="push with refs only pushes those refs" classname="org.ajoberstar.grgit.operation.PushOpSpec" time="0.603"/>
+  <testcase name="push with refSpecs only pushes those refs" classname="org.ajoberstar.grgit.operation.PushOpSpec" time="0.559"/>
+  <testcase name="push in dryRun mode does not push commits" classname="org.ajoberstar.grgit.operation.PushOpSpec" time="0.514"/>
+  <testcase name="push in dryRun mode does not push tags" classname="org.ajoberstar.grgit.operation.PushOpSpec" time="0.487"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

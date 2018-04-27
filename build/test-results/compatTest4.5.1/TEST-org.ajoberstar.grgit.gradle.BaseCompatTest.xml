@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.gradle.BaseCompatTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:21:47" hostname="HP-OfficeJet-Pro-8720.local" time="10.11">
+  <properties/>
+  <testcase name="with no repo, plugin sets grgit to null" classname="org.ajoberstar.grgit.gradle.BaseCompatTest" time="8.813"/>
+  <testcase name="with repo, plugin opens the repo as grgit" classname="org.ajoberstar.grgit.gradle.BaseCompatTest" time="1.055"/>
+  <testcase name="with repo, plugin closes the repo after build is finished" classname="org.ajoberstar.grgit.gradle.BaseCompatTest" time="0.241"/>
+  <system-out><![CDATA[No git repository found for :. Accessing grgit will cause an NPE.
+:doStuff
+
+BUILD SUCCESSFUL in 6s
+1 actionable task: 1 executed
+1.0.0
+The client will now receive all logging from the daemon (pid: 98663). The daemon log file: /var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/.gradle-test-kit-andreakosta/test-kit-daemon/4.5.1/daemon-98663.out.log
+Starting 3rd build in daemon [uptime: 5.663 secs, performance: 99%, no major garbage collections]
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Using 8 worker leases.
+Starting Build
+Settings evaluated using settings file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2202773259810174312/project/settings.gradle'.
+Projects loaded. Root project using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2202773259810174312/project/build.gradle'.
+Included projects: [root project 'project']
+Evaluating root project 'project' using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2202773259810174312/project/build.gradle'.
+All projects evaluated.
+Selected primary task 'doStuff' from project :
+Tasks to be executed: [task ':doStuff']
+:doStuff (Thread[Task worker for ':',5,main]) started.
+:doStuff
+Task ':doStuff' is not up-to-date because:
+  Task has not declared any outputs.
+1.0.0
+:doStuff (Thread[Task worker for ':',5,main]) completed. Took 0.015 secs.
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+Closing Git repo: /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2202773259810174312/project/.git
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

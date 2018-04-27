@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.ResetOpSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:51" hostname="HP-OfficeJet-Pro-8720.local" time="1.129">
+  <properties/>
+  <testcase name="reset soft changes HEAD only" classname="org.ajoberstar.grgit.operation.ResetOpSpec" time="0.306"/>
+  <testcase name="reset mixed changes HEAD and index" classname="org.ajoberstar.grgit.operation.ResetOpSpec" time="0.237"/>
+  <testcase name="reset hard changes HEAD, index, and working tree" classname="org.ajoberstar.grgit.operation.ResetOpSpec" time="0.252"/>
+  <testcase name="reset with paths changes index only" classname="org.ajoberstar.grgit.operation.ResetOpSpec" time="0.183"/>
+  <testcase name="reset with paths and mode set not supported" classname="org.ajoberstar.grgit.operation.ResetOpSpec" time="0.15"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

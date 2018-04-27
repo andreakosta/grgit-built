@@ -1,0 +1,37 @@
+ANo git repository found for :. Accessing grgit will cause an NPE.
+:doStuff
+
+BUILD SUCCESSFUL
+
+Total time: 5.51 secs
+1.0.0
+ÑThe client will now receive all logging from the daemon (pid: 98374). The daemon log file: /var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/.gradle-test-kit-andreakosta/test-kit-daemon/3.0/daemon-98374.out.log
+xStarting 3rd build in daemon [uptime: 6.258 secs, performance: 97%, GC rate: 0.33/s, tenured heap usage: 1% of 716.2 MB]
+'Closing daemon's stdin at end of input.
+ÍExecuting build with daemon context: DefaultDaemonContext[uid=fc461cd7-f16f-4b7c-baa2-bda5b51cb676,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home,daemonRegistryDir=/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/.gradle-test-kit-andreakosta/test-kit-daemon,pid=98374,idleTimeout=120000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+5The daemon will no longer process any standard input.
+Starting Build
+“Settings evaluated using settings file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/settings.gradle'.
+˜Projects loaded. Root project using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/build.gradle'.
++Included projects: [root project 'project']
+œEvaluating root project 'project' using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/build.gradle'.
+All projects evaluated.
+.Selected primary task 'doStuff' from project :
+'Tasks to be executed: [task ':doStuff']
+¯Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/fileHashes.bin: MaxSize{400000}
+±Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/treeSnapshots.bin: MaxSize{20000}
+µCreating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/treeSnapshotUsage.bin: MaxSize{20000}
+ÅCreating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin: MaxSize{10000}
+±Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/fileSnapshots.bin: MaxSize{10000}
+°Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/taskArtifacts.bin: MaxSize{2000}
+0:doStuff (Thread[Daemon worker,5,main]) started.
+:doStuff
+BExecuting task ':doStuff' (up-to-date check took 0.0 secs) due to:
+$  Task has not declared any outputs.
+1.0.0
+C:doStuff (Thread[Daemon worker,5,main]) completed. Took 0.015 secs.
+
+BUILD SUCCESSFUL
+
+Total time: 0.16 secs
+pClosing Git repo: /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.git

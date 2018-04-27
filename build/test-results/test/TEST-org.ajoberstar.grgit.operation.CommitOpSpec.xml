@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.CommitOpSpec" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:23:31" hostname="HP-OfficeJet-Pro-8720.local" time="1.056">
+  <properties/>
+  <testcase name="commit with all false commits changes from index" classname="org.ajoberstar.grgit.operation.CommitOpSpec" time="0.192"/>
+  <testcase name="commit with all true commits changes in previously tracked files" classname="org.ajoberstar.grgit.operation.CommitOpSpec" time="0.139"/>
+  <testcase name="commit amend changes the previous commit" classname="org.ajoberstar.grgit.operation.CommitOpSpec" time="0.174"/>
+  <testcase name="commit with paths only includes the specified paths from the index" classname="org.ajoberstar.grgit.operation.CommitOpSpec" time="0.204"/>
+  <testcase name="commit without specific committer or author uses repo config" classname="org.ajoberstar.grgit.operation.CommitOpSpec" time="0.172"/>
+  <testcase name="commit with specific committer and author uses those" classname="org.ajoberstar.grgit.operation.CommitOpSpec" time="0.175"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

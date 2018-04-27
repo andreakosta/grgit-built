@@ -1,15 +1,3 @@
 .gradle
-build
-.settings
-.project
-.classpath
-bin
-*~
-*.iml
-*.iws
-*.ipr
-.idea
-out
-*.sublime-*
-*.swp
-gradle.properties
+
+

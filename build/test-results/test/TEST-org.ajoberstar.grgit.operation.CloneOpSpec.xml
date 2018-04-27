@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.CloneOpSpec" tests="10" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:34" hostname="HP-OfficeJet-Pro-8720.local" time="3.754">
+  <properties/>
+  <testcase name="clone with non-existent uri fails" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.342"/>
+  <testcase name="clone with default settings clones as expected" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.49"/>
+  <testcase name="clone with different remote does not use origin" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.401"/>
+  <testcase name="clone with bare true does not have a working tree" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.373"/>
+  <testcase name="clone with checkout false does not check out a working tree" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.288"/>
+  <testcase name="clone with checkout false and refToCheckout set fails" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.223"/>
+  <testcase name="clone with refToCheckout set to simple branch name works" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.439"/>
+  <testcase name="clone with refToCheckout set to simple tag name works" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.359"/>
+  <testcase name="clone with refToCheckout set to full ref name works" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.442"/>
+  <testcase name="cloned repo can be deleted" classname="org.ajoberstar.grgit.operation.CloneOpSpec" time="0.396"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

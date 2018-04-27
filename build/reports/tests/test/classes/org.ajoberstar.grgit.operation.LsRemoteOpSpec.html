@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.ajoberstar.grgit.operation.LsRemoteOpSpec</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.ajoberstar.grgit.operation.LsRemoteOpSpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.ajoberstar.grgit.operation.html">org.ajoberstar.grgit.operation</a> &gt; LsRemoteOpSpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.522s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">lsremote from non-existent remote fails</td>
+<td>0.748s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">lsremote returns all refs</td>
+<td>0.789s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">lsremote returns branches and tags</td>
+<td>0.527s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">lsremote returns only branches</td>
+<td>0.724s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">lsremote returns only tags</td>
+<td>0.734s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[org.ajoberstar.grgit.Branch(refs/heads/master), org.ajoberstar.grgit.Branch(refs/heads/my-branch), org.ajoberstar.grgit.Branch(refs/heads/sub/mine1), org.ajoberstar.grgit.Branch(refs/heads/sub/mine2), org.ajoberstar.grgit.Branch(refs/heads/unreachable-branch)]
+[org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(836b54335becaab220d1a50539aa5d195814c45c, [1966b33571333d9013ff1335382177b520899bb6], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:27-05:00[GMT-05:00], do, do), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/reachable-tag, , , 2018-04-26T23:23:27-05:00[GMT-05:00]), org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(787f306a89007ccdd472ee4e6c7787f42a422a95, [836b54335becaab220d1a50539aa5d195814c45c], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:27-05:00[GMT-05:00], do-unreachable, do-unreachable), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/unreachable-tag, , , 2018-04-26T23:23:27-05:00[GMT-05:00])]
+[org.ajoberstar.grgit.Branch(refs/heads/master), org.ajoberstar.grgit.Branch(refs/heads/my-branch), org.ajoberstar.grgit.Branch(refs/heads/sub/mine1), org.ajoberstar.grgit.Branch(refs/heads/sub/mine2), org.ajoberstar.grgit.Branch(refs/heads/unreachable-branch)]
+[org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(62eb01cdff7613049feaa995bda8c10129832311, [e1b1d4e8418ec87f6746531db33ede6512a024e9], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:28-05:00[GMT-05:00], do, do), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/reachable-tag, , , 2018-04-26T23:23:28-05:00[GMT-05:00]), org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(8f7e42b2c0d4797ccc02e3e490a7c1a77138e74f, [62eb01cdff7613049feaa995bda8c10129832311], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:28-05:00[GMT-05:00], do-unreachable, do-unreachable), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/unreachable-tag, , , 2018-04-26T23:23:28-05:00[GMT-05:00])]
+[org.ajoberstar.grgit.Branch(refs/heads/master), org.ajoberstar.grgit.Branch(refs/heads/my-branch), org.ajoberstar.grgit.Branch(refs/heads/sub/mine1), org.ajoberstar.grgit.Branch(refs/heads/sub/mine2), org.ajoberstar.grgit.Branch(refs/heads/unreachable-branch)]
+[org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(c613873adacecde674f06a145c6912afbc19a447, [e1b1d4e8418ec87f6746531db33ede6512a024e9], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:29-05:00[GMT-05:00], do, do), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/reachable-tag, , , 2018-04-26T23:23:29-05:00[GMT-05:00]), org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(4a0482c863693b76e8c7231e283efca804fdad86, [c613873adacecde674f06a145c6912afbc19a447], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:29-05:00[GMT-05:00], do-unreachable, do-unreachable), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/unreachable-tag, , , 2018-04-26T23:23:29-05:00[GMT-05:00])]
+[org.ajoberstar.grgit.Branch(refs/heads/master), org.ajoberstar.grgit.Branch(refs/heads/my-branch), org.ajoberstar.grgit.Branch(refs/heads/sub/mine1), org.ajoberstar.grgit.Branch(refs/heads/sub/mine2), org.ajoberstar.grgit.Branch(refs/heads/unreachable-branch)]
+[org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(addbbf2f28b4685b5c4fec6f3e254563504fc263, [c029ca44dd8c340cc7bcc84a24145c1050ca5df6], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:29-05:00[GMT-05:00], do, do), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/reachable-tag, , , 2018-04-26T23:23:29-05:00[GMT-05:00]), org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(d6da00163f39a1502c67fda1dfe99b82ce5989ef, [addbbf2f28b4685b5c4fec6f3e254563504fc263], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:29-05:00[GMT-05:00], do-unreachable, do-unreachable), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/unreachable-tag, , , 2018-04-26T23:23:29-05:00[GMT-05:00])]
+[org.ajoberstar.grgit.Branch(refs/heads/master), org.ajoberstar.grgit.Branch(refs/heads/my-branch), org.ajoberstar.grgit.Branch(refs/heads/sub/mine1), org.ajoberstar.grgit.Branch(refs/heads/sub/mine2), org.ajoberstar.grgit.Branch(refs/heads/unreachable-branch)]
+[org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(9123e7451a7ffbc847d9f0bbff7c75050265d112, [bc2cb3af24932cc28baa3d6e2ac339f5e4fbff59], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:30-05:00[GMT-05:00], do, do), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/reachable-tag, , , 2018-04-26T23:23:30-05:00[GMT-05:00]), org.ajoberstar.grgit.Tag(org.ajoberstar.grgit.Commit(27b19eb1bbe41773005c5ca588edc3f620929e11, [9123e7451a7ffbc847d9f0bbff7c75050265d112], org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), 2018-04-26T23:23:30-05:00[GMT-05:00], do-unreachable, do-unreachable), org.ajoberstar.grgit.Person(Bruce Wayne, bruce.wayne@wayneindustries.com), refs/tags/unreachable-tag, , , 2018-04-26T23:23:30-05:00[GMT-05:00])]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.6</a> at Apr 26, 2018 11:23:46 PM</p>
+</div>
+</div>
+</body>
+</html>

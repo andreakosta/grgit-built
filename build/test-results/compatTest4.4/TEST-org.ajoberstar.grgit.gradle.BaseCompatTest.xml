@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.gradle.BaseCompatTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:21:15" hostname="HP-OfficeJet-Pro-8720.local" time="8.973">
+  <properties/>
+  <testcase name="with no repo, plugin sets grgit to null" classname="org.ajoberstar.grgit.gradle.BaseCompatTest" time="7.724"/>
+  <testcase name="with repo, plugin opens the repo as grgit" classname="org.ajoberstar.grgit.gradle.BaseCompatTest" time="0.99"/>
+  <testcase name="with repo, plugin closes the repo after build is finished" classname="org.ajoberstar.grgit.gradle.BaseCompatTest" time="0.259"/>
+  <system-out><![CDATA[No git repository found for :. Accessing grgit will cause an NPE.
+:doStuff
+
+BUILD SUCCESSFUL in 5s
+1 actionable task: 1 executed
+1.0.0
+The client will now receive all logging from the daemon (pid: 98622). The daemon log file: /var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/.gradle-test-kit-andreakosta/test-kit-daemon/4.4/daemon-98622.out.log
+Starting 3rd build in daemon [uptime: 5.513 secs, performance: 99%, no major garbage collections]
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Using 8 worker leases.
+Creating new cache for fileHashes, path /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit1143736493025129458/project/.gradle/4.4/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@74d70236
+Starting Build
+Settings evaluated using settings file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit1143736493025129458/project/settings.gradle'.
+Projects loaded. Root project using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit1143736493025129458/project/build.gradle'.
+Included projects: [root project 'project']
+Evaluating root project 'project' using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit1143736493025129458/project/build.gradle'.
+All projects evaluated.
+Selected primary task 'doStuff' from project :
+Tasks to be executed: [task ':doStuff']
+Creating new cache for resourceHashesCache, path /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit1143736493025129458/project/.gradle/4.4/fileHashes/resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheAccess@74d70236
+Creating new cache for taskHistory, path /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit1143736493025129458/project/.gradle/4.4/taskHistory/taskHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@17e08c36
+Creating new cache for outputFiles, path /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit1143736493025129458/project/.gradle/buildOutputCleanup/outputFiles.bin, access org.gradle.cache.internal.DefaultCacheAccess@3fadebfe
+:doStuff (Thread[Task worker for ':',5,main]) started.
+:doStuff
+Putting task artifact state for task ':doStuff' into context took 0.0 secs.
+Up-to-date check for task ':doStuff' took 0.0 secs. It is not up-to-date because:
+  Task has not declared any outputs.
+1.0.0
+:doStuff (Thread[Task worker for ':',5,main]) completed. Took 0.018 secs.
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+Closing Git repo: /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit1143736493025129458/project/.git
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

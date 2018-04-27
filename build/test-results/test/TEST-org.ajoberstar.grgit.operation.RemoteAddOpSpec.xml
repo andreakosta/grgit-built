@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.RemoteAddOpSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:23:18" hostname="HP-OfficeJet-Pro-8720.local" time="0.063">
+  <properties/>
+  <testcase name="remote with given name and push/fetch urls is added" classname="org.ajoberstar.grgit.operation.RemoteAddOpSpec" time="0.063"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

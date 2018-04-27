@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.ajoberstar.grgit.gradle.BaseCompatTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.ajoberstar.grgit.gradle.BaseCompatTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.ajoberstar.grgit.gradle.html">org.ajoberstar.grgit.gradle</a> &gt; BaseCompatTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">9.239s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">with no repo, plugin sets grgit to null</td>
+<td>7.657s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">with repo, plugin closes the repo after build is finished</td>
+<td>0.274s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">with repo, plugin opens the repo as grgit</td>
+<td>1.308s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>No git repository found for :. Accessing grgit will cause an NPE.
+:doStuff
+
+BUILD SUCCESSFUL
+
+Total time: 5.51 secs
+1.0.0
+The client will now receive all logging from the daemon (pid: 98374). The daemon log file: /var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/.gradle-test-kit-andreakosta/test-kit-daemon/3.0/daemon-98374.out.log
+Starting 3rd build in daemon [uptime: 6.258 secs, performance: 97%, GC rate: 0.33/s, tenured heap usage: 1% of 716.2 MB]
+Closing daemon's stdin at end of input.
+Executing build with daemon context: DefaultDaemonContext[uid=fc461cd7-f16f-4b7c-baa2-bda5b51cb676,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home,daemonRegistryDir=/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/.gradle-test-kit-andreakosta/test-kit-daemon,pid=98374,idleTimeout=120000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+The daemon will no longer process any standard input.
+Starting Build
+Settings evaluated using settings file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/settings.gradle'.
+Projects loaded. Root project using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/build.gradle'.
+Included projects: [root project 'project']
+Evaluating root project 'project' using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/build.gradle'.
+All projects evaluated.
+Selected primary task 'doStuff' from project :
+Tasks to be executed: [task ':doStuff']
+Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/fileHashes.bin: MaxSize{400000}
+Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/treeSnapshots.bin: MaxSize{20000}
+Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/treeSnapshotUsage.bin: MaxSize{20000}
+Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin: MaxSize{10000}
+Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/fileSnapshots.bin: MaxSize{10000}
+Creating In-memory cache of /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.gradle/3.0/taskArtifacts/taskArtifacts.bin: MaxSize{2000}
+:doStuff (Thread[Daemon worker,5,main]) started.
+:doStuff
+Executing task ':doStuff' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+1.0.0
+:doStuff (Thread[Daemon worker,5,main]) completed. Took 0.015 secs.
+
+BUILD SUCCESSFUL
+
+Total time: 0.16 secs
+Closing Git repo: /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit7097143840515233931/project/.git
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.6</a> at Apr 26, 2018 11:18:22 PM</p>
+</div>
+</div>
+</body>
+</html>

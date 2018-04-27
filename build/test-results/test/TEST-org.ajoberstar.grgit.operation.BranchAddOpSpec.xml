@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.BranchAddOpSpec" tests="13" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:23:18" hostname="HP-OfficeJet-Pro-8720.local" time="4.271">
+  <properties/>
+  <testcase name="branch add with name creates branch pointing to current HEAD" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.315"/>
+  <testcase name="branch add with name and startPoint creates branch pointing to startPoint" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.293"/>
+  <testcase name="branch add fails to overwrite existing branch" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.314"/>
+  <testcase name="branch add with mode set but no start point fails" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.468"/>
+  <testcase name="branch add with null mode starting at origin/my-branch tracks refs/remotes/origin/my-branch" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.348"/>
+  <testcase name="branch add with TRACK mode starting at origin/my-branch tracks refs/remotes/origin/my-branch" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.362"/>
+  <testcase name="branch add with NO_TRACK mode starting at origin/my-branch tracks null" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.325"/>
+  <testcase name="branch add with null mode starting at test-branch tracks null" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.348"/>
+  <testcase name="branch add with TRACK mode starting at test-branch tracks refs/heads/test-branch" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.37"/>
+  <testcase name="branch add with NO_TRACK mode starting at test-branch tracks null" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.324"/>
+  <testcase name="branch add with no name, null mode, and a start point fails" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.267"/>
+  <testcase name="branch add with no name, TRACK mode, and a start point fails" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.27"/>
+  <testcase name="branch add with no name, NO_TRACK mode, and a start point fails" classname="org.ajoberstar.grgit.operation.BranchAddOpSpec" time="0.262"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

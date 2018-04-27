@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.CheckoutOpSpec" tests="10" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:38" hostname="HP-OfficeJet-Pro-8720.local" time="2.242">
+  <properties/>
+  <testcase name="checkout with existing branch and createBranch false works" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.287"/>
+  <testcase name="checkout with existing branch, createBranch true fails" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.132"/>
+  <testcase name="checkout with non-existent branch and createBranch false fails" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.192"/>
+  <testcase name="checkout with non-existent branch and createBranch true works" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.312"/>
+  <testcase name="checkout with non-existent branch, createBranch true, and startPoint works" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.299"/>
+  <testcase name="checkout with no branch name and createBranch true fails" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.141"/>
+  <testcase name="checkout with existing branch and orphan true fails" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.179"/>
+  <testcase name="checkout with non-existent branch and orphan true works" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.246"/>
+  <testcase name="checkout with non-existent branch, orphan true, and startPoint works" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.26"/>
+  <testcase name="checkout with no branch name and orphan true fails" classname="org.ajoberstar.grgit.operation.CheckoutOpSpec" time="0.191"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

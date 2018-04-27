@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.MergeOpSpec" tests="18" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:52" hostname="HP-OfficeJet-Pro-8720.local" time="18.34">
+  <properties/>
+  <testcase name="merging origin/ff with DEFAULT does a fast-forward merge" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.13"/>
+  <testcase name="merging origin/ff with ONLY_FF does a fast-forward merge" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.053"/>
+  <testcase name="merging origin/ff with NO_COMMIT does a fast-forward merge" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.02"/>
+  <testcase name="merging origin/ff with CREATE_COMMIT creates a merge commit" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.077"/>
+  <testcase name="merging origin/clean with DEFAULT creates a merge commit" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.019"/>
+  <testcase name="merging origin/clean with CREATE_COMMIT creates a merge commit" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.003"/>
+  <testcase name="merging origin/clean with NO_COMMIT merges but leaves them uncommitted" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="0.974"/>
+  <testcase name="merging origin/ff with SQUASH squashes changes but leaves them uncommitted" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="0.981"/>
+  <testcase name="merging origin/clean with SQUASH squashes changes but leaves them uncommitted" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="0.986"/>
+  <testcase name="merging origin/clean with ONLY_FF fails with correct status" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="0.995"/>
+  <testcase name="merging origin/conflict with DEFAULT fails with correct status" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="0.989"/>
+  <testcase name="merging origin/conflict with ONLY_FF fails with correct status" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="0.988"/>
+  <testcase name="merging origin/conflict with CREATE_COMMIT fails with correct status" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="0.995"/>
+  <testcase name="merging origin/conflict with SQUASH fails with correct status" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.008"/>
+  <testcase name="merging origin/conflict with NO_COMMIT fails with correct status" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.005"/>
+  <testcase name="merge uses message if supplied" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.035"/>
+  <testcase name="merge of a branch includes this in default message" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.012"/>
+  <testcase name="merge of a commit includes this in default message" classname="org.ajoberstar.grgit.operation.MergeOpSpec" time="1.063"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,34 @@
+ANo git repository found for :. Accessing grgit will cause an NPE.
+:doStuff
+
+BUILD SUCCESSFUL in 5s
+1 actionable task: 1 executed
+1.0.0
+ÓThe client will now receive all logging from the daemon (pid: 98634). The daemon log file: /var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/.gradle-test-kit-andreakosta/test-kit-daemon/4.4.1/daemon-98634.out.log
+aStarting 3rd build in daemon [uptime: 5.486 secs, performance: 99%, no major garbage collections]
+'Closing daemon's stdin at end of input.
+5The daemon will no longer process any standard input.
+Using 8 worker leases.
+çCreating new cache for fileHashes, path /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2277103347816269759/project/.gradle/4.4.1/fileHashes/fileHashes.bin, access org.gradle.cache.internal.DefaultCacheAccess@50e26ed6
+Starting Build
+“Settings evaluated using settings file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2277103347816269759/project/settings.gradle'.
+˜Projects loaded. Root project using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2277103347816269759/project/build.gradle'.
++Included projects: [root project 'project']
+œEvaluating root project 'project' using build file '/private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2277103347816269759/project/build.gradle'.
+All projects evaluated.
+.Selected primary task 'doStuff' from project :
+'Tasks to be executed: [task ':doStuff']
+ùCreating new cache for resourceHashesCache, path /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2277103347816269759/project/.gradle/4.4.1/fileHashes/resourceHashesCache.bin, access org.gradle.cache.internal.DefaultCacheAccess@50e26ed6
+êCreating new cache for taskHistory, path /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2277103347816269759/project/.gradle/4.4.1/taskHistory/taskHistory.bin, access org.gradle.cache.internal.DefaultCacheAccess@1410a690
+ëCreating new cache for outputFiles, path /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2277103347816269759/project/.gradle/buildOutputCleanup/outputFiles.bin, access org.gradle.cache.internal.DefaultCacheAccess@373cc473
+6:doStuff (Thread[Task worker for ':',5,main]) started.
+:doStuff
+KPutting task artifact state for task ':doStuff' into context took 0.0 secs.
+QUp-to-date check for task ':doStuff' took 0.0 secs. It is not up-to-date because:
+$  Task has not declared any outputs.
+1.0.0
+I:doStuff (Thread[Task worker for ':',5,main]) completed. Took 0.012 secs.
+
+BUILD SUCCESSFUL in 0s
+1 actionable task: 1 executed
+pClosing Git repo: /private/var/folders/yr/543vxp0d2pj84mhjhwjyf7p80000gn/T/junit2277103347816269759/project/.git

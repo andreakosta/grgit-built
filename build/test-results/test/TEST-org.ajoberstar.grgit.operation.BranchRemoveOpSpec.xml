@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.BranchRemoveOpSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:28" hostname="HP-OfficeJet-Pro-8720.local" time="2.722">
+  <properties/>
+  <testcase name="branch remove with empty list does nothing" classname="org.ajoberstar.grgit.operation.BranchRemoveOpSpec" time="0.415"/>
+  <testcase name="branch remove with one branch removes branch" classname="org.ajoberstar.grgit.operation.BranchRemoveOpSpec" time="0.265"/>
+  <testcase name="branch remove with multiple branches remvoes branches" classname="org.ajoberstar.grgit.operation.BranchRemoveOpSpec" time="0.433"/>
+  <testcase name="branch remove with invalid branches skips invalid and removes others" classname="org.ajoberstar.grgit.operation.BranchRemoveOpSpec" time="0.404"/>
+  <testcase name="branch remove with unmerged branch and force false fails" classname="org.ajoberstar.grgit.operation.BranchRemoveOpSpec" time="0.222"/>
+  <testcase name="branch remove with unmerged branch and force true works" classname="org.ajoberstar.grgit.operation.BranchRemoveOpSpec" time="0.383"/>
+  <testcase name="branch remove with current branch and force true fails" classname="org.ajoberstar.grgit.operation.BranchRemoveOpSpec" time="0.344"/>
+  <testcase name="branch remove with current branch and force false fails" classname="org.ajoberstar.grgit.operation.BranchRemoveOpSpec" time="0.255"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

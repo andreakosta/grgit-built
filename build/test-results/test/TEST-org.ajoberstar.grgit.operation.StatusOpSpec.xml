@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.StatusOpSpec" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:31" hostname="HP-OfficeJet-Pro-8720.local" time="2.993">
+  <properties/>
+  <testcase name="with no changes all methods return empty list" classname="org.ajoberstar.grgit.operation.StatusOpSpec" time="0.44"/>
+  <testcase name="new unstaged file detected" classname="org.ajoberstar.grgit.operation.StatusOpSpec" time="0.355"/>
+  <testcase name="unstaged modified files detected" classname="org.ajoberstar.grgit.operation.StatusOpSpec" time="0.343"/>
+  <testcase name="unstaged deleted files detected" classname="org.ajoberstar.grgit.operation.StatusOpSpec" time="0.358"/>
+  <testcase name="staged new files detected" classname="org.ajoberstar.grgit.operation.StatusOpSpec" time="0.349"/>
+  <testcase name="staged modified files detected" classname="org.ajoberstar.grgit.operation.StatusOpSpec" time="0.373"/>
+  <testcase name="staged removed files detected" classname="org.ajoberstar.grgit.operation.StatusOpSpec" time="0.363"/>
+  <testcase name="conflict files detected" classname="org.ajoberstar.grgit.operation.StatusOpSpec" time="0.412"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

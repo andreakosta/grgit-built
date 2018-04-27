@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.AddOpSpec" tests="4" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:44" hostname="HP-OfficeJet-Pro-8720.local" time="0.266">
+  <properties/>
+  <testcase name="adding specific file only adds that file" classname="org.ajoberstar.grgit.operation.AddOpSpec" time="0.049"/>
+  <testcase name="adding specific directory adds all files within it" classname="org.ajoberstar.grgit.operation.AddOpSpec" time="0.058"/>
+  <testcase name="adding file pattern does not work due to lack of JGit support" classname="org.ajoberstar.grgit.operation.AddOpSpec" time="0.04"/>
+  <testcase name="adding with update true only adds/removes files already in the index" classname="org.ajoberstar.grgit.operation.AddOpSpec" time="0.119"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

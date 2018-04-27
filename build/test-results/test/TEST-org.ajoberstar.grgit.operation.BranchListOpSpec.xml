@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.BranchListOpSpec" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:23:16" hostname="HP-OfficeJet-Pro-8720.local" time="2.004">
+  <properties/>
+  <testcase name="list branch with [:] lists [[refs/heads/master, refs/remotes/origin/master]]" classname="org.ajoberstar.grgit.operation.BranchListOpSpec" time="0.361"/>
+  <testcase name="list branch with [mode:LOCAL] lists [[refs/heads/master, refs/remotes/origin/master]]" classname="org.ajoberstar.grgit.operation.BranchListOpSpec" time="0.354"/>
+  <testcase name="list branch with [mode:REMOTE] lists [[refs/remotes/origin/master], [refs/remotes/origin/my-branch]]" classname="org.ajoberstar.grgit.operation.BranchListOpSpec" time="0.301"/>
+  <testcase name="list branch with [mode:ALL] lists [[refs/heads/master, refs/remotes/origin/master], [refs/remotes/origin/master], [refs/remotes/origin/my-branch]]" classname="org.ajoberstar.grgit.operation.BranchListOpSpec" time="0.349"/>
+  <testcase name="list branch with [mode:REMOTE, contains:test-tag] lists [[refs/remotes/origin/master]]" classname="org.ajoberstar.grgit.operation.BranchListOpSpec" time="0.336"/>
+  <testcase name="list branch receives Commit object as contains flag" classname="org.ajoberstar.grgit.operation.BranchListOpSpec" time="0.301"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

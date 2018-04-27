@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.BranchStatusOpSpec" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:24" hostname="HP-OfficeJet-Pro-8720.local" time="3.412">
+  <properties/>
+  <testcase name="branch status on branch that is not tracking fails" classname="org.ajoberstar.grgit.operation.BranchStatusOpSpec" time="1.849"/>
+  <testcase name="branch status on up-to-date gives correct counts" classname="org.ajoberstar.grgit.operation.BranchStatusOpSpec" time="0.835"/>
+  <testcase name="branch status on out-of-date gives correct counts" classname="org.ajoberstar.grgit.operation.BranchStatusOpSpec" time="0.724"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.PullOpSpec" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:23:10" hostname="HP-OfficeJet-Pro-8720.local" time="5.548">
+  <properties/>
+  <testcase name="pull to local repo with no changes fast-forwards current branch only" classname="org.ajoberstar.grgit.operation.PullOpSpec" time="0.798"/>
+  <testcase name="pull to local repo with clean changes merges branches from origin" classname="org.ajoberstar.grgit.operation.PullOpSpec" time="0.947"/>
+  <testcase name="pull to local repo with conflicting changes fails" classname="org.ajoberstar.grgit.operation.PullOpSpec" time="0.884"/>
+  <testcase name="pull to local repo with clean changes and rebase rebases changes on top of origin" classname="org.ajoberstar.grgit.operation.PullOpSpec" time="1.161"/>
+  <testcase name="pull to local repo from other remote fast-forwards current branch" classname="org.ajoberstar.grgit.operation.PullOpSpec" time="0.898"/>
+  <testcase name="pull to local repo from specific remote branch merges changes" classname="org.ajoberstar.grgit.operation.PullOpSpec" time="0.859"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

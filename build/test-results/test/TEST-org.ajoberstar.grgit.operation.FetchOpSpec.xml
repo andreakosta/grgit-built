@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.FetchOpSpec" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:44" hostname="HP-OfficeJet-Pro-8720.local" time="6.135">
+  <properties/>
+  <testcase name="fetch from non-existent remote fails" classname="org.ajoberstar.grgit.operation.FetchOpSpec" time="0.515"/>
+  <testcase name="fetch without other settings, brings down correct commits" classname="org.ajoberstar.grgit.operation.FetchOpSpec" time="0.755"/>
+  <testcase name="fetch with prune true, removes refs deleted in the remote" classname="org.ajoberstar.grgit.operation.FetchOpSpec" time="0.866"/>
+  <testcase name="fetch with tag mode none fetches []" classname="org.ajoberstar.grgit.operation.FetchOpSpec" time="0.992"/>
+  <testcase name="fetch with tag mode auto fetches [reachable-tag]" classname="org.ajoberstar.grgit.operation.FetchOpSpec" time="0.98"/>
+  <testcase name="fetch with tag mode all fetches [reachable-tag, unreachable-tag]" classname="org.ajoberstar.grgit.operation.FetchOpSpec" time="1.01"/>
+  <testcase name="fetch with refspecs fetches those branches" classname="org.ajoberstar.grgit.operation.FetchOpSpec" time="1.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

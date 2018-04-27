@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.CleanOpSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:27" hostname="HP-OfficeJet-Pro-8720.local" time="0.727">
+  <properties/>
+  <testcase name="clean with defaults deletes untracked files only" classname="org.ajoberstar.grgit.operation.CleanOpSpec" time="0.225"/>
+  <testcase name="clean with paths only deletes from paths" classname="org.ajoberstar.grgit.operation.CleanOpSpec" time="0.119"/>
+  <testcase name="clean with directories true also deletes untracked directories" classname="org.ajoberstar.grgit.operation.CleanOpSpec" time="0.13"/>
+  <testcase name="clean with ignore false also deletes files ignored by .gitignore" classname="org.ajoberstar.grgit.operation.CleanOpSpec" time="0.127"/>
+  <testcase name="clean with dry run true returns expected but does not delete them" classname="org.ajoberstar.grgit.operation.CleanOpSpec" time="0.126"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

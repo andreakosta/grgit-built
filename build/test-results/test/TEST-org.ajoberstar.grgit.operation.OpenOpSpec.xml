@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.OpenOpSpec" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:22:43" hostname="HP-OfficeJet-Pro-8720.local" time="0.968">
+  <properties/>
+  <testcase name="open with dir fails if there is no repo in that dir" classname="org.ajoberstar.grgit.operation.OpenOpSpec" time="0.056"/>
+  <testcase name="open with dir succeeds if repo is in that directory" classname="org.ajoberstar.grgit.operation.OpenOpSpec" time="0.059"/>
+  <testcase name="open without dir fails if there is no repo in the current dir" classname="org.ajoberstar.grgit.operation.OpenOpSpec" time="0.052"/>
+  <testcase name="open without dir succeeds if current directory is repo dir" classname="org.ajoberstar.grgit.operation.OpenOpSpec" time="0.089"/>
+  <testcase name="open without dir succeeds if current directory is subdir of a repo" classname="org.ajoberstar.grgit.operation.OpenOpSpec" time="0.08"/>
+  <testcase name="open without dir succeeds if .git in current dir has gitdir" classname="org.ajoberstar.grgit.operation.OpenOpSpec" time="0.222"/>
+  <testcase name="open without dir succeeds if .git in parent dir has gitdir" classname="org.ajoberstar.grgit.operation.OpenOpSpec" time="0.258"/>
+  <testcase name="open with currentDir succeeds if current directory is subdir of a repo" classname="org.ajoberstar.grgit.operation.OpenOpSpec" time="0.096"/>
+  <testcase name="opened repo can be deleted after being closed" classname="org.ajoberstar.grgit.operation.OpenOpSpec" time="0.056"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

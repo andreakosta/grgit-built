@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.operation.ShowOpSpec" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:23:32" hostname="HP-OfficeJet-Pro-8720.local" time="0.71">
+  <properties/>
+  <testcase name="can show diffs in commit that added new file" classname="org.ajoberstar.grgit.operation.ShowOpSpec" time="0.119"/>
+  <testcase name="can show diffs in commit that modified existing file" classname="org.ajoberstar.grgit.operation.ShowOpSpec" time="0.171"/>
+  <testcase name="can show diffs in commit that deleted existing file" classname="org.ajoberstar.grgit.operation.ShowOpSpec" time="0.104"/>
+  <testcase name="can show diffs in commit with multiple changes" classname="org.ajoberstar.grgit.operation.ShowOpSpec" time="0.117"/>
+  <testcase name="can show diffs in commit with rename" classname="org.ajoberstar.grgit.operation.ShowOpSpec" time="0.132"/>
+  <testcase name="can show diffs based on rev string" classname="org.ajoberstar.grgit.operation.ShowOpSpec" time="0.067"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

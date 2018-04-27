@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.ajoberstar.grgit.util.JGitUtilSpec" tests="15" skipped="0" failures="0" errors="0" timestamp="2018-04-27T04:23:40" hostname="HP-OfficeJet-Pro-8720.local" time="5.764">
+  <properties/>
+  <testcase name="resolveObject works for branch name" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.419"/>
+  <testcase name="resolveObject works for full commit hash" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.381"/>
+  <testcase name="resolveObject works for abbreviated commit hash" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.418"/>
+  <testcase name="resolveObject works for full ref name" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.405"/>
+  <testcase name="resolveObject works for HEAD" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.282"/>
+  <testcase name="resolveObject works for parent commit" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.47"/>
+  <testcase name="resolveObject works for current commit" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.398"/>
+  <testcase name="resolveObject works for n-th parent" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.408"/>
+  <testcase name="resolveObject works for the n-th ancestor" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.396"/>
+  <testcase name="resolveObject fails if revision cannot be found" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.295"/>
+  <testcase name="resolveObject fails if revision syntax is wrong" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.404"/>
+  <testcase name="convertCommit works for valid commit" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.4"/>
+  <testcase name="resolveTag works for annotated tag ref" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.267"/>
+  <testcase name="resolveTag works for unannotated tag ref" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.41"/>
+  <testcase name="resolveTag works for a tag pointing to a tag" classname="org.ajoberstar.grgit.util.JGitUtilSpec" time="0.409"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
