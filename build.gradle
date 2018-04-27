@@ -1,0 +1,143 @@
+plugins {
+  id 'org.ajoberstar.defaults' version '0.10.0'
+  id 'org.jbake.site' version '1.0.0'
+  id 'java-gradle-plugin'
+  id 'groovy'
+  // TODO remove when Gradle dependency locking is available
+  id 'nebula.dependency-lock' version '5.0.4'
+}
+
+group = 'org.ajoberstar'
+description = 'The Groovy way to use Git.'
+
+sourceCompatibility = '1.8'
+
+// compat tests use grgit to set up and verify the tests
+sourceSets {
+  compatTest {
+    compileClasspath += main.output
+    runtimeClasspath += main.output
+  }
+}
+
+configurations.compatTestCompile.extendsFrom configurations.compile
+
+// workaround for https://github.com/ajoberstar/gradle-stutter/issues/13
+tasks.withType(Test).matching { it.name =~ '^compatTest' }.all {
+  classpath = sourceSets.compatTest.runtimeClasspath
+}
+
+jbake {
+  srcDirName = 'docs'
+}
+
+gitPublish {
+  contents {
+    from "${buildDir}/${jbake.destDirName}"
+  }
+}
+
+gitPublishCopy.dependsOn bake
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  // groovy
+  compileOnly 'org.codehaus.groovy:groovy-all:[2.4.0, 3.0.0)'
+
+  // gradle
+  compileOnly gradleApi()
+
+  // jgit
+  def jgitVersion = '[4.8.0.201706111038-r,)'
+  compile "org.eclipse.jgit:org.eclipse.jgit:$jgitVersion"
+  compile "org.eclipse.jgit:org.eclipse.jgit.ui:$jgitVersion"
+
+  // agentproxy
+  def agentProxyVersion = '[0.0.9,)'
+  compile "com.jcraft:jsch.agentproxy.core:$agentProxyVersion"
+  compile "com.jcraft:jsch.agentproxy.jsch:$agentProxyVersion"
+  compile "com.jcraft:jsch.agentproxy.pageant:$agentProxyVersion"
+  compile "com.jcraft:jsch.agentproxy.sshagent:$agentProxyVersion"
+  compile "com.jcraft:jsch.agentproxy.usocket-jna:$agentProxyVersion"
+  compile "com.jcraft:jsch.agentproxy.usocket-nc:$agentProxyVersion"
+  // agentproxy pulls this in, but we need to force a newer version
+  compile 'com.jcraft:jsch:[0.1.54,)'
+
+  // logging
+  def slf4jVersion = '[1.7.25,1.8.0-alpha)' // wait for final 1.8.0 to come out before letting it in
+
+  // testing
+  def junitVersion = '4.12'
+  testCompile "junit:junit:$junitVersion"
+  compatTestCompile "junit:junit:$junitVersion"
+  def spockVersion = '1.1-groovy-2.4'
+  testCompile "org.spockframework:spock-core:$spockVersion"
+  compatTestCompile "org.spockframework:spock-core:$spockVersion"
+}
+
+test {
+  useJUnit {
+    excludeCategories 'org.ajoberstar.grgit.fixtures.PlatformSpecific'
+  }
+}
+
+['Windows', 'Linux', 'Mac'].each { platform ->
+  tasks.create("test${platform}", Test) {
+    useJUnit {
+      includeCategories "org.ajoberstar.grgit.fixtures.${platform}Specific"
+    }
+    System.properties.each { key, value ->
+      if (key.startsWith('org.ajoberstar.grgit.test')) {
+        systemProperties((key): value)
+      }
+    }
+  }
+}
+
+stutter {
+  includeActiveRc = true
+  java(8) {
+    compatibleRange '3.0'
+  }
+  java(9) {
+    compatibleRange '4.2.1'
+  }
+  java(10) {
+    compatibleRange '4.2.1'
+    incompatible '4.7-rc-1'
+  }
+}
+
+publishing {
+  repositories {
+    maven {
+      name = 'bintray'
+      url = 'https://api.bintray.com/maven/ajoberstar/maven/grgit/;publish=1'
+      credentials {
+        username = System.env['BINTRAY_USER']
+        password = System.env['BINTRAY_KEY']
+      }
+    }
+  }
+}
+
+pluginBundle {
+    website = 'https://github.com/ajoberstar/grgit'
+    vcsUrl = 'https://github.com/ajoberstar/grgit.git'
+    description = 'The Groovy way to use Git'
+    plugins {
+        publishPlugin {
+            id = 'org.ajoberstar.grgit'
+            displayName = 'The Groovy way to use Git'
+            tags = ['git', 'groovy']
+        }
+    }
+    mavenCoordinates {
+        groupId = project.group
+        artifactId = project.name
+        version = project.version
+    }
+}
